@@ -1,0 +1,65 @@
+﻿<Window x:Class="PLA.StartWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:custom="clr-namespace:PLA.view"
+		Title="Perceptron Learning Algorithm Illustration" Height="650" Width="500">
+
+	<Viewbox Stretch="Uniform" StretchDirection="Both">
+		<Grid Name="grid1" Margin="10">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Name="column1" Width="*"/>
+			</Grid.ColumnDefinitions>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Name="row1" Height="*"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+			
+			<TextBlock Margin="2" x:Name="tbTitle" Grid.Column="1" Grid.Row="0" 
+				RenderTransformOrigin="0.5,0.5" FontSize="14" FontWeight="Bold"
+				HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextAlignment="Center" Text="Title"/> 
+			
+			<TextBlock Margin="2" x:Name="tbXLabel" Grid.Column="1" Grid.Row="2" 
+				RenderTransformOrigin="0.5,0.5" TextAlignment="Center" Text="X Axis"/>
+
+			<TextBlock Margin="2" Name="tbYLabel" Grid.Column="0" Grid.Row="1" 
+				RenderTransformOrigin="0.5,0.5" TextAlignment="Center" Text="Y Axis">
+				<TextBlock.LayoutTransform>
+					<RotateTransform Angle="-90"/>
+				</TextBlock.LayoutTransform>
+			</TextBlock>
+
+			<Canvas Margin="2" Name="textCanvas" Width="400" Height="400" 
+				Grid.Column="1" Grid.Row="1" ClipToBounds="True" >
+
+				<Canvas Name="chartCanvas" ClipToBounds="True" 
+						MouseMove="chartCanvas_MouseMove"
+						MouseLeave="chartCanvas_MouseLeave"
+						MouseLeftButtonDown="chartCanvas_MouseLeftButtonDown"
+						MouseRightButtonDown="chartCanvas_MouseRightButtonDown">
+					<Canvas.Background>
+						<SolidColorBrush Color="#FF81DD92" Opacity="0.3"/>
+					</Canvas.Background>
+					<Ellipse Name="puckCursor"  Visibility="Hidden" Opacity="0.3" Tag="Cursor" Style="{StaticResource BluePuck}"/>
+				</Canvas>
+			</Canvas>
+
+			<Popup Name="floatingTip" AllowsTransparency="True" Placement="Relative" PlacementTarget="{Binding ElementName=chartCanvas}">
+				<TextBlock Foreground="#FF2883D8" 
+					Text="{Binding Path=PositionInfo, UpdateSourceTrigger=PropertyChanged}" FontSize="13" />
+			</Popup>
+
+			<StackPanel Margin="20" x:Name="stackPanel" Grid.Column="1" Grid.Row="3" 
+					Orientation="Horizontal" HorizontalAlignment="Center">
+				<Button Content="Data" Width="50" Height="50" Click="Button_Click"/>
+				<Button Content="Run" Width="50" Height="50" Click="Button_Click_1"/>
+				<Button Content="Clear" Width="50" Height="50" Click="Button_Click_2"/>
+				<!--<Button Width="50" Height="50" Style="{StaticResource CircleButton}" Background="Silver" Foreground="White">Button 7</Button>-->
+			</StackPanel>
+		</Grid>
+	</Viewbox>
+</Window>
+
+

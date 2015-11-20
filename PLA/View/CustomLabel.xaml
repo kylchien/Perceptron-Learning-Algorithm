@@ -1,0 +1,132 @@
+﻿<UserControl x:Class="PLA.view.CustomLabel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+		x:Name="CustomLabelX"
+             >
+	<!-- NOTE  THIS FILE IS NOT USED; LIST HERE FOR FUTURE PREPARIATION-->
+	<StackPanel Orientation="Horizontal">
+		<Ellipse Height="30" Width="30">
+			<Ellipse.Fill>
+				<SolidColorBrush Color="White"/>
+			</Ellipse.Fill>
+		</Ellipse>
+		
+		<Ellipse Height="30" Width="30" MouseEnter="Ellipse_MouseEnter">
+			<Ellipse.Fill>
+				<RadialGradientBrush GradientOrigin="0.65,0.25">
+					<GradientStop Color="White" Offset="0.0" />
+					<GradientStop Color="#FF4777CE" Offset="0.5" />
+					<GradientStop Color="Blue" Offset="1.0" />
+				</RadialGradientBrush>
+			</Ellipse.Fill>
+		</Ellipse>
+		<Ellipse Height="30" Width="30">
+			<Ellipse.Fill>
+				<RadialGradientBrush GradientOrigin="0.65,0.25">
+					<GradientStop Color="White" Offset="0.0" />
+					<GradientStop Color="#FFD85A5A" Offset="0.5" />
+					<GradientStop Color="Red" Offset="1.0" />
+				</RadialGradientBrush>
+			</Ellipse.Fill>
+		</Ellipse>
+		<Canvas>
+			<Path Data="M211.42857,266.64789A54.285713,51.42857,0,1,1,102.85714,266.64789A54.285713,51.42857,0,1,1,211.42857,266.64789z" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeMiterLimit="4">
+				<Path.RenderTransform>
+					<MatrixTransform Matrix="0.999750018119812,0,0,1.05528748035431,6.03928661346436,-9.09918975830078" ></MatrixTransform>
+				</Path.RenderTransform>
+			</Path>
+			<Rectangle Fill="#FFE6E6E6" Stroke="#FFFFFFFF" StrokeThickness="0.93142032623291" Width="18.1428553262329" Height="57.7142873262329" Canvas.Left="170.071429836884" Canvas.Top="243.433859836884" ></Rectangle>
+			<Rectangle Fill="#FFE6E6E6" Stroke="#FFFFFFFF" StrokeThickness="0.931418061256409" Width="18.1428570612564" Height="57.7139990612564" Canvas.Left="138.071430969372" Canvas.Top="243.434150969372" ></Rectangle>
+			<Path Data="M162.65625,219.15629C133.52603,219.1563 109.875,243.47944 109.875,273.43754 156.77381,262.83269 168.19577,262.69279 215.40625,273.43754 215.40626,243.47944 191.78648,219.15629 162.65625,219.15629z" Fill="#80FFFFFF" Stroke="#17000000" StrokeThickness="1" StrokeMiterLimit="4" Opacity="0.5" ></Path>
+			<Canvas.RenderTransform>
+				<MatrixTransform Matrix="1,0,0,1,-104,-197.928802490234" ></MatrixTransform>
+			</Canvas.RenderTransform>
+		</Canvas>
+		<Canvas>
+			<Path Data="M211.42857,266.64789A54.285713,51.42857,0,1,1,102.85714,266.64789A54.285713,51.42857,0,1,1,211.42857,266.64789z" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeMiterLimit="4">
+				<Path.RenderTransform>
+					<MatrixTransform Matrix="0.999750018119812,0,0,1.05528748035431,126.896430969238,-9.02799987792969" ></MatrixTransform>
+				</Path.RenderTransform>
+			</Path>
+			<Rectangle Fill="#FFE6E6E6" Stroke="#FFFFFFFF" StrokeThickness="1.73591864109039" Width="59.9999986410904" Height="60.0000026410904" Canvas.Left="253.999990679455" Canvas.Top="242.362190679455" ></Rectangle>
+			<Path Data="M283.5134,219.22748C254.38318,219.22749 230.73215,243.55063 230.73215,273.50873 277.63096,262.90388 289.05292,262.76398 336.2634,273.50873 336.26341,243.55063 312.64363,219.22748 283.5134,219.22748z" Fill="#80FFFFFF" Stroke="#17000000" StrokeThickness="1" StrokeMiterLimit="4" Opacity="0.5" ></Path>
+			<Canvas.RenderTransform>
+				<MatrixTransform Matrix="1,0,0,1,-104.857139587402,-198" ></MatrixTransform>
+			</Canvas.RenderTransform>
+		</Canvas>
+		<Canvas>
+			<Path Data="M211.42857,266.64789A54.285713,51.42857,0,1,1,102.85714,266.64789A54.285713,51.42857,0,1,1,211.42857,266.64789z" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeMiterLimit="4">
+				<Path.RenderTransform>
+					<MatrixTransform Matrix="0.999750018119812,0,0,1.05528748035431,247.896423339844,-7.028000831604" ></MatrixTransform>
+				</Path.RenderTransform>
+			</Path>
+			<Path Data="M233,452.36218L188.95096,474.79391 144.90192,497.22563 147.5,447.86218 150.09808,398.49874 191.54904,425.43046 233,452.36218z" Fill="#FFE6E6E6" Stroke="#2FFFFFFF" StrokeThickness="1" StrokeMiterLimit="4">
+				<Path.RenderTransform>
+					<MatrixTransform Matrix="0.702186107635498,-0.0335243493318558,0.0346183106303215,0.679996728897095,263.884704589844,-25.2377834320068" ></MatrixTransform>
+				</Path.RenderTransform>
+			</Path>
+			<Path Data="M404.5134,221.22748C375.38318,221.22749 351.73215,245.55063 351.73215,275.50873 398.63096,264.90388 410.05292,264.76398 457.2634,275.50873 457.26341,245.55063 433.64363,221.22748 404.5134,221.22748z" Fill="#80FFFFFF" Stroke="#17000000" StrokeThickness="1" StrokeMiterLimit="4" Opacity="0.5" ></Path>
+			<Canvas.RenderTransform>
+				<MatrixTransform Matrix="1,0,0,1,-105,-200" ></MatrixTransform>
+			</Canvas.RenderTransform>
+		</Canvas>
+		<Canvas>
+			<Path Data="M211.42857,266.64789A54.285713,51.42857,0,1,1,102.85714,266.64789A54.285713,51.42857,0,1,1,211.42857,266.64789z" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeMiterLimit="4">
+				<Path.RenderTransform>
+					<MatrixTransform Matrix="0.999750018119812,0,0,1.05528748035431,264.896423339844,-209.813507080078" ></MatrixTransform>
+				</Path.RenderTransform>
+			</Path>
+			<Canvas>
+				<Path Data="M323,453.36218L233.25481,490.17659 143.50962,526.991 156.5,430.86218 169.49038,334.73336 246.24519,394.04777 323,453.36218z" Fill="#FFE6E6E6" Stroke="#2FFFFFFF" StrokeThickness="1" StrokeMiterLimit="4">
+					<Path.RenderTransform>
+						<MatrixTransform Matrix="-0.0282182358205318,-0.201478704810143,0.201478704810143,-0.0282182358205318,543.172668457031,382.336090087891" ></MatrixTransform>
+					</Path.RenderTransform>
+				</Path>
+				<Path Data="M323,453.36218L233.25481,490.17659 143.50962,526.991 156.5,430.86218 169.49038,334.73336 246.24519,394.04777 323,453.36218z" Fill="#FFE6E6E6" Stroke="#2FFFFFFF" StrokeThickness="1" StrokeMiterLimit="4">
+					<Path.RenderTransform>
+						<MatrixTransform Matrix="-0.0282182358205318,-0.201478704810143,0.201478704810143,-0.0282182358205318,542.606628417969,359.094665527344" ></MatrixTransform>
+					</Path.RenderTransform>
+				</Path>
+				<Canvas.RenderTransform>
+					<MatrixTransform Matrix="0,1.31255984306335,-1.31255984306335,0,830.87109375,-749.144714355469" ></MatrixTransform>
+				</Canvas.RenderTransform>
+			</Canvas>
+			<Path Data="M421.5134,18.44198C392.38318,18.44199 368.73215,42.76513 368.73215,72.72323 415.63096,62.11838 427.05292,61.97848 474.2634,72.72323 474.26341,42.76513 450.64363,18.44198 421.5134,18.44198z" Fill="#80FFFFFF" Stroke="#17000000" StrokeThickness="1" StrokeMiterLimit="4" Opacity="0.5" ></Path>
+			<Canvas.RenderTransform>
+				<MatrixTransform Matrix="1,0,0,1,-4,2.78550171852112" ></MatrixTransform>
+			</Canvas.RenderTransform>
+		</Canvas>
+		<Canvas>
+			<Path Data="M211.42857,266.64789A54.285713,51.42857,0,1,1,102.85714,266.64789A54.285713,51.42857,0,1,1,211.42857,266.64789z" Fill="#FF000000" Stroke="#FF000000" StrokeThickness="1" StrokeMiterLimit="4">
+				<Path.RenderTransform>
+					<MatrixTransform Matrix="0.999750018119812,0,0,1.05528748035431,387.896423339844,-207.02799987793" ></MatrixTransform>
+				</Path.RenderTransform>
+			</Path>
+			<Canvas>
+				<Path Data="M323,453.36218L233.25481,490.17659 143.50962,526.991 156.5,430.86218 169.49038,334.73336 246.24519,394.04777 323,453.36218z" Fill="#FFE6E6E6" Stroke="#2FFFFFFF" StrokeThickness="1" StrokeMiterLimit="4">
+					<Path.RenderTransform>
+						<MatrixTransform Matrix="-0.0282182358205318,-0.201478704810143,0.201478704810143,-0.0282182358205318,543.172668457031,382.336090087891" ></MatrixTransform>
+					</Path.RenderTransform>
+				</Path>
+				<Path Data="M323,453.36218L233.25481,490.17659 143.50962,526.991 156.5,430.86218 169.49038,334.73336 246.24519,394.04777 323,453.36218z" Fill="#FFE6E6E6" Stroke="#2FFFFFFF" StrokeThickness="1" StrokeMiterLimit="4">
+					<Path.RenderTransform>
+						<MatrixTransform Matrix="-0.0282182358205318,-0.201478704810143,0.201478704810143,-0.0282182358205318,542.606628417969,359.094665527344" ></MatrixTransform>
+					</Path.RenderTransform>
+				</Path>
+				<Canvas.RenderTransform>
+					<MatrixTransform Matrix="0,-1.31255984306335,1.31255984306335,0,136.128936767578,895.083618164063" ></MatrixTransform>
+				</Canvas.RenderTransform>
+			</Canvas>
+			<Path Data="M544.5134,21.22748C515.38318,21.22749 491.73215,45.55063 491.73215,75.50873 538.63096,64.90388 550.05292,64.76398 597.2634,75.50873 597.26341,45.55063 573.64363,21.22748 544.5134,21.22748z" Fill="#80FFFFFF" Stroke="#17000000" StrokeThickness="1" StrokeMiterLimit="4" Opacity="0.5" ></Path>
+			<Canvas.RenderTransform>
+				<MatrixTransform Matrix="1,0,0,1,-6,0" ></MatrixTransform>
+			</Canvas.RenderTransform>
+		</Canvas>
+	
+	</StackPanel>
+
+</UserControl>
+
