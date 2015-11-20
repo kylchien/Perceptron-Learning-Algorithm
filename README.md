@@ -1,5 +1,5 @@
 # Perceptron Learning
-Illustration of Perceptron Learning Algorithm; Animated in C# (WPF) 
+Illustration of Perceptron Learning Algorithm (the foundation of artificial neural network); Animated in C# (WPF) 
 
 Please use Visual Studio 2010 (.NET 4.0) or above
 
