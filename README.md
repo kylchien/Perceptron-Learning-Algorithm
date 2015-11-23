@@ -6,9 +6,9 @@ Constructed with C# (WPF); please compile with .NET 4.0 or newer version;
 
 How to start:
 
-1. using left click to add positive labels and right click for negative labels
+1. Use left click to add positive labels and right click for negative labels
 
-2. hit "Run" button
+2. Hit "Run" button
 
 3. After animation finishes, click "Clear" button to erase old data and restart  
 </body>
