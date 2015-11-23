@@ -1,3 +1,4 @@
+<body>
 # Perceptron Learning
 Illustration of Perceptron Learning Algorithm (the foundation of artificial neural network); 
 
@@ -8,5 +9,6 @@ Starting the illustration:
 1. using mouse left click to add positive label and right click for negative label
 
 2. hit "run" button
+</body>
 
-![Alt text](http://i124.photobucket.com/albums/p24/moneypig/pla.jpg "snapshot")
+<img src="http://i124.photobucket.com/albums/p24/moneypig/pla.jpg" width="400">
