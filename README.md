@@ -2,13 +2,15 @@
 # Perceptron Learning
 Illustration of Perceptron Learning Algorithm (the foundation of artificial neural network); 
 
-Constructed with C# (WPF); please use Visual Studio 2010 (.NET 4.0) or above;
+Constructed with C# (WPF); please compile with .NET 4.0 or newer version;
 
-Starting the illustration:
+How to start:
 
-1. using mouse left click to add positive label and right click for negative label
+1. using left click to add positive labels and right click for negative labels
 
-2. hit "run" button
+2. hit "Run" button
+
+3. After animation finishes, click "Clear" button to erase old data and restart  
 </body>
 
 <img src="http://i124.photobucket.com/albums/p24/moneypig/pla.jpg" width="400">
